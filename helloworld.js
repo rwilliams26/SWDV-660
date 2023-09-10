@@ -1,6 +1,6 @@
-var http = require("http")
+import { createServer } from "http"
 
-http.createServer(function (request, response) {
+createServer(function (request, response) {
 
    // Send the HTTP header
    // HTTP Status: 200 : OK
